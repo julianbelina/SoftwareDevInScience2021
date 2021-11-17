@@ -579,3 +579,7 @@ def docopt(doc, argv=None, help=True, version=None, options_first=False):
     if matched and left == []:  # better error message if left?
         return Dict((a.name, a.value) for a in (pattern.flat() + collected))
     raise DocoptExit()
+
+class testclass():
+    def __init__(self) -> None:
+        pass
